@@ -23,7 +23,7 @@ public class EmployeeController {
 		return "list";
 	}
 
-	@PostMapping("/employee/create")
+	@GetMapping("/employee/create")
 	public String create(Model model) {
 		model.addAttribute("employee", new Employee());
 		return "form";
@@ -35,7 +35,7 @@ public class EmployeeController {
 		return "form";
 	}
 
-	@PutMapping("/employee/save")
+	@PostMapping("/employee/save")
 	public String save(@Valid Employee employee, BindingResult result, RedirectAttributes redirect) {
 		if (result.hasErrors()) {
 			return "form";
