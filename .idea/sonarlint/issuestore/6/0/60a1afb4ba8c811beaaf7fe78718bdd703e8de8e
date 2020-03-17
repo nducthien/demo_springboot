@@ -1,0 +1,9 @@
+
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¡å¤8ÅöÀ‘.
+o	java:S116 "TRename this field "update_ts" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°å¥K8Şé¿‘.
+w	java:S116"VRename this field "author_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Ææ£úÿÿÿÿ8š»‘.
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¡å¤8ÅöÀ‘.
+p	java:S116"TRename this field "create_ts" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÂ„³8íÌ¾‘.
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¡å¤8ÅöÀ‘.
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¡å¤8ÅöÀ‘.
+p	java:S116"TRename this field "book_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¡è8š»‘.
