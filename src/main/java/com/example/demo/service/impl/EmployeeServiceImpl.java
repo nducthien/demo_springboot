@@ -12,30 +12,30 @@ import com.example.demo.repository.EmployeeRepository;
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 	@Autowired
-    private EmployeeRepository employeeRepository;
+	private EmployeeRepository employeeRepository;
 
-    @Override
-    public Iterable<Employee> findAll() {
-        return employeeRepository.findAll();
-    }
+	@Override
+	public Iterable<Employee> findAll() {
+		return employeeRepository.findAll();
+	}
 
-    @Override
-    public List<Employee> search(String q) {
-        return employeeRepository.findByNameContaining(q);
-    }
+	@Override
+	public List<Employee> search(String q) {
+		return employeeRepository.findByNameContaining(q);
+	}
 
-    @Override
-    public Employee findOne(long id) {
-        return employeeRepository.findOne(id);
-    }
+	@Override
+	public Employee findOne(long id) {
+		return employeeRepository.findOne(id);
+	}
 
-    @Override
-    public void save(Employee contact) {
-    	employeeRepository.save(contact);
-    }
+	@Override
+	public void save(Employee contact) {
+		employeeRepository.save(contact);
+	}
 
-    @Override
-    public void delete(Employee emp) {
-    	employeeRepository.delete(emp);
-    }
+	@Override
+	public void delete(Employee emp) {
+		employeeRepository.delete(emp);
+	}
 }	

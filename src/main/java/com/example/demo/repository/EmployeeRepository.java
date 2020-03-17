@@ -8,6 +8,6 @@ import com.example.demo.model.Employee;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 
-    List<Employee> findByNameContaining(String q);
+	List<Employee> findByNameContaining(String q);
 
 }
