@@ -11,7 +11,7 @@ public class NewController {
 		return model;
 	}
 
-	@PostMapping(value = "/new")
+	@PutMapping(value = "/new")
 	public New updateNew(@RequestBody New model) {
 		return model;
 	}
