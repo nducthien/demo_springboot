@@ -21,10 +21,10 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 
-	@GetMapping("/")
-	public String home() {
-		return "redirect:/employee";
-	}
+//	@GetMapping("/")
+//	public String home() {
+//		return "redirect:/employee";
+//	}
 
 	@GetMapping("/employee")
 	public String index(Model model, HttpServletRequest request
