@@ -1,1 +1,1 @@
-# demo_springboot
+# demo_springbootDemo project for Spring Security:LoginLogoutAuthorizingCRUD Simple#Using spring framework :Spring Boot (để khởi tạo và chạy dự án)Spring Security (để mã hóa mật khẩu và xác thực người dùng)Spring MVC (để xây dựng web app)Spring Data JPA (Hibernate)Thymeleaf
